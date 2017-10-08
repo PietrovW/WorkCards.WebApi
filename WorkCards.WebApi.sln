@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkCards.WebApi", "WorkCards.WebApi\WorkCards.WebApi.csproj", "{02CF1DBD-6DDC-4F15-8E7A-FBE46E7C46ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkCards.Api", "WorkCards.WebApi\WorkCards.Api.csproj", "{02CF1DBD-6DDC-4F15-8E7A-FBE46E7C46ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkCards.Core", "WorkCards.Core\WorkCards.Core.csproj", "{BD791540-0C5B-4D55-9B1F-1743C436BADB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkCards.Infrastructure", "WorkCards.Infrastructure\WorkCards.Infrastructure.csproj", "{BFEE8154-8080-4320-9EC7-2EACC7577CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkCards.DataAccess", "WorkCards.DataAccess\WorkCards.DataAccess.csproj", "{0D0B88D5-08F3-45AD-B99F-EDF1AA9360B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkCards.Configuration", "WorkCards.Configuration\WorkCards.Configuration.csproj", "{BE67CBAD-5D4E-4E24-AC01-B94BAF3C9475}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{02CF1DBD-6DDC-4F15-8E7A-FBE46E7C46ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02CF1DBD-6DDC-4F15-8E7A-FBE46E7C46ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02CF1DBD-6DDC-4F15-8E7A-FBE46E7C46ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD791540-0C5B-4D55-9B1F-1743C436BADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD791540-0C5B-4D55-9B1F-1743C436BADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD791540-0C5B-4D55-9B1F-1743C436BADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD791540-0C5B-4D55-9B1F-1743C436BADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEE8154-8080-4320-9EC7-2EACC7577CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEE8154-8080-4320-9EC7-2EACC7577CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEE8154-8080-4320-9EC7-2EACC7577CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEE8154-8080-4320-9EC7-2EACC7577CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0B88D5-08F3-45AD-B99F-EDF1AA9360B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0B88D5-08F3-45AD-B99F-EDF1AA9360B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0B88D5-08F3-45AD-B99F-EDF1AA9360B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0B88D5-08F3-45AD-B99F-EDF1AA9360B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE67CBAD-5D4E-4E24-AC01-B94BAF3C9475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE67CBAD-5D4E-4E24-AC01-B94BAF3C9475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE67CBAD-5D4E-4E24-AC01-B94BAF3C9475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE67CBAD-5D4E-4E24-AC01-B94BAF3C9475}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
